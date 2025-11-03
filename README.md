@@ -2,6 +2,14 @@
 
 A natural language to SQL query system with synthetic medical data generation and interactive web interface.
 
+(short video below)
+
+
+
+https://github.com/user-attachments/assets/dce446ff-f178-47a1-bef0-3067b293f959
+
+
+
 ## 🚀 Features
 
 - **Natural Language Query Processing**
