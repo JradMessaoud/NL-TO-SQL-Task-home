@@ -1,0 +1,44 @@
+{
+    "tables": {
+        "patients": {
+            "columns": [
+                {"name": "patient_id", "type": "INTEGER", "primary_key": true},
+                {"name": "name", "type": "TEXT"},
+                {"name": "age", "type": "INTEGER"},
+                {"name": "gender", "type": "TEXT"}
+            ]
+        },
+        "doctors": {
+            "columns": [
+                {"name": "doctor_id", "type": "INTEGER", "primary_key": true},
+                {"name": "name", "type": "TEXT"},
+                {"name": "specialty", "type": "TEXT"}
+            ]
+        },
+        "medications": {
+            "columns": [
+                {"name": "med_id", "type": "INTEGER", "primary_key": true},
+                {"name": "name", "type": "TEXT"},
+                {"name": "manufacturer", "type": "TEXT"}
+            ]
+        },
+        "appointments": {
+            "columns": [
+                {"name": "appt_id", "type": "INTEGER", "primary_key": true},
+                {"name": "patient_id", "type": "INTEGER", "references": {"table": "patients", "column": "patient_id"}},
+                {"name": "doctor_id", "type": "INTEGER", "references": {"table": "doctors", "column": "doctor_id"}},
+                {"name": "date", "type": "TEXT"},
+                {"name": "reason", "type": "TEXT"}
+            ]
+        },
+        "prescriptions": {
+            "columns": [
+                {"name": "presc_id", "type": "INTEGER", "primary_key": true},
+                {"name": "patient_id", "type": "INTEGER", "references": {"table": "patients", "column": "patient_id"}},
+                {"name": "med_id", "type": "INTEGER", "references": {"table": "medications", "column": "med_id"}},
+                {"name": "dosage", "type": "TEXT"},
+                {"name": "date", "type": "TEXT"}
+            ]
+        }
+    }
+}

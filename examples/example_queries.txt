@@ -1,0 +1,27 @@
+# Patient Queries
+Show all patients                           # Lists all patients with their details
+Show all patients older than 60             # Finds elderly patients
+List patients with blood type A+            # Filters patients by blood type
+List patients with blood type O-            # Another blood type example
+
+# Doctor Queries
+List all doctors and their specialties      # Shows doctors with their specializations
+How many doctors are there?                 # Counts total number of doctors
+How many doctors are there in each specialty # Shows distribution of doctors by specialty
+Show doctors who have the most appointments # Finds busiest doctors
+
+# Appointment Queries
+Show appointments in the last 7 days        # Recent appointments
+Show appointments for Dr. Smith             # Filter by doctor
+Show appointments for patient John Doe      # Filter by patient
+How many appointments are there?            # Total appointment count
+
+# Time-based Queries
+Show appointments in the last month         # Monthly view
+Show appointments in the last week          # Weekly view
+Show appointments in the last 3 days        # Very recent appointments
+
+# Count and Analytics Queries
+How many patients do we have?               # Total patient count
+Count total number of appointments          # Total appointment count
+Show doctors with more than 10 appointments # Busy doctors analysis

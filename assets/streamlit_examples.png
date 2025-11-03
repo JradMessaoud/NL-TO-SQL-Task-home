@@ -1,0 +1,4 @@
+Example Streamlit interface screenshot showing:
+1. Text input field with question "Show me all patients older than 60"
+2. Generated SQL display
+3. Results table with patient names and ages
