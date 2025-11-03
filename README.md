@@ -303,7 +303,6 @@ medical_database_system/
 ├── src/               # Source code
 │   ├── database/      # Database operations
 │   ├── nl_to_sql/    # Query translation
-│   └── data_generation/ # Data generation
 ├── tests/             # Unit tests
 └── streamlit_app.py   # Main application
 ```
