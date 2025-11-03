@@ -17,3 +17,4 @@ huggingface_hub[hf_xet]>=0.19.4
 hf_xet>=0.1.0
 safetensors>=0.4.0
 python-dotenv>=1.0.0
+python>=3.13.0
