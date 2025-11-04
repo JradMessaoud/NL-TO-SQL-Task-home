@@ -284,12 +284,9 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-3. Generate sample database:
-```powershell
-python src/data_generation/medical_db.py --patients 200 --doctors 20 --appointments 600
-```
 
-4. Run the application:
+
+3. Run the application:
 ```powershell
 streamlit run streamlit_app.py
 ```
